@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--  fancybox-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!--ICONMOON-->
+    <link rel="stylesheet" href="iconmoon/style.css">
+
+    <link rel="icon" href="fotos/icono/vengadores.png">
+
+    <title>IronMan</title>
+</head>
+
+<body class="fondo">
+
+    <!--      NAVBAR -->
+    <nav id="Nav"></nav>
+    <script src="js/nav.js"></script>
+
+    <main>
+
+        <section>
+
+            <div class="container marketing color-secundario pb-5 mb-5 rounded-bottom">
+                <h2 class="display-4 text-center">Iron Man</h2>
+                
+                <p>Stark Intustri también es conocido por Tony Stark también conocido como Iron Man. Todos los trajes fueron creados con la tecnología Stark y con la idea de preservar la paz en el mundo. Una armadura donde pueda proteger a la humanidad.</p>
+                        
+                <h4 class="text-center titulos">Versiones de la armadura Mark</h4>
+
+                <div id="Galeria" class="row text-center justify-content-center"></div>
+                <!-- JS DE LA GALERIA --> 
+                <script src="js/galeria.js"></script>
+
+                <div class="row justify-content-center">
+                    <div class="col text-center">
+                        <hr class="featurette-divider">
+                        <a data-fancybox="gallery" href="fotos/trajes/mark85.jpg">
+                            <img src="fotos/trajes/miniatura/mark85.png" alt="mark85" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            
+            
+            
+        </section>
+
+    </main>
+
+
+
+
+
+    <!-- MOBAL ERROR-->
+
+
+    <div class="modal fade" id="errorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="errorModalLabel">ERROR</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Esta funcion esta deshabilitada.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="mailEnviadoMobal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="errorModalLabel">Mail enviado!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Tu mail a quedado registrado y te mantendremos informado!
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="Footer"></footer>
+    <script src="js/footer.js"></script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!--galeria de fotos Jquery-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</body>
+
+</html>

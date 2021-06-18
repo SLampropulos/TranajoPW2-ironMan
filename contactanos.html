@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!--ICONMOON-->
+    <link rel="stylesheet" href="iconmoon/style.css">
+
+
+    <link rel="icon" href="fotos/icono/vengadores.png">
+
+    <title>Contactanos</title>
+</head>
+
+<body class="fondo">
+
+    <!--      NAVBAR -->
+    <nav id="Nav"></nav>
+    <script src="js/nav.js"></script>
+
+    <main>
+
+        <section>
+
+
+
+            <div class="container marketing color-secundario pb-5 mb-5 rounded-bottom">
+
+                <!--            TITULO-->
+
+                <h1 class="display-4 text-center pt-lg-5 pt-md-3 pt-2 titulos">Contactese</h1>
+                <hr class="featurette-divider mt-5">
+
+                <!-- PRIMER SUB DIVISION-->
+
+                <p>La empresa solo que comunica por mail tenemos un tiempo de espera de contestacion que varia de de una o dos semanas, dependiendo el motivo por el cual se quiere comunicar. <br>Por favor revisar bien su mail, asi podremos comunicarnos con usted.</p>
+
+                <p>Tambien puede visitar nuestas oficinas en <a href="https://g.page/washington-square-park?share" class="font-weight-bold ciudades">Nueva York</a> o nuesta nueva oficinas en <a href="https://goo.gl/maps/scZzLUGNXp2vnYKM9" class="font-weight-bold ciudades">California</a>.</p>
+
+                <div class="row justify-content-around mb-4">
+                    <div class="col-md-5 card color-cards m-4 px-0">
+                        <div class="card-body">
+                            <p class="card-text text-center">Nueva York</p>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27149.002604197136!2d-74.00488799202738!3d40.731722997567516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25990e23d7e8d%3A0xfa615edfd1b67e18!2sWashington%20Square%20Park!5e0!3m2!1ses-419!2sar!4v1606744480943!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="card-img"></iframe>
+                    </div>
+                    <div class="col-md-5 card color-cards m-4 px-0">
+                        <div class="card-body">
+                            <p class="card-text text-center">California</p>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84015.48696089601!2d-118.29259521766669!3d33.99504754888476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c333e01a5da2f7%3A0x8f91b210f9595be6!2sParque%20MacArthur!5e0!3m2!1ses-419!2sar!4v1606744711771!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="card-img"></iframe>
+
+                    </div>
+                </div>
+
+                <!--FORMULARIO-->
+                <div class="color-cards p-3 rounded">
+                    <form action="show_data.html">
+                        <!--NOMBRE***********************-->
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputNombre">Nombre/s</label>
+                                <input type="text" name="Nombre" class="form-control" id="inputnombre" placeholder="Stan" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputApellido">Apellido/s</label>
+                                <input type="text" name="Apellido" class="form-control" id="inputApellido" placeholder="Lee" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <!--MAIL*********************-->
+                            <div class="form-group col-lg-4">
+                                <label for="inputMail">Mail</label>
+                                <input type="email" name="Mail" class="form-control" id="inputMail" placeholder="nombre@gmail.com" required>
+                            </div>
+                            <!--TELEFONO*****************-->
+                            <div class="form-group mx-3">
+                                <label for="inputTelefono">Telefono</label>
+                                <input type="text" class="form-control" id="inputProvincia" required>
+                            </div>
+
+                            <!--SEXO**********************-->
+                            <div class="form-group">
+                                <label for="inputSexo">Sexo</label>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="Sexo" id="inlineRadio1" value="Femenino">
+                                        <label class="form-check-label" for="inlineRadio1">Femenino</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="Sexo" id="inlineRadio2" value="Masculino">
+                                        <label class="form-check-label" for="inlineRadio2">Maculino</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="Sexo" id="inlineRadio3" value="Otro">
+                                        <label class="form-check-label" for="inlineRadio3">Otro</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <!--MOTIVO*************************-->
+
+                            <label for="inputState">Motivo</label>
+                            <select id="inputState" name="Motivo" class="form-control" required>
+                                <option selected>Reunion</option>
+                                <option>Expo Stark</option>
+                                <option>Soporte</option>
+                                <option>Solicitar trabajo</option>
+                                <option>Desuscribirse</option>
+                                <option>Otros...</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Dejanos un mensaje</label>
+                            <textarea class="form-control" name="texto" id="exampleFormControlTextarea1" rows="4"></textarea>
+                            <div class="form-group">
+                                <label for="exampleFormControlFile1">Adjunte su informacion</label>
+                                <input type="file" name="archivos" class="form-control-file" id="exampleFormControlFile1">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block mt-3 color-principal">Enviar</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <!-- MOBAL ERROR-->
+
+
+    <div class="modal fade" id="errorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="errorModalLabel">ERROR</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Esta funcion esta deshabilitada.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="mailEnviadoMobal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="errorModalLabel">Mail enviado!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Tu mail a quedado registrado y te mantendremos informado!
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="Footer"></footer>
+    <script src="js/footer.js"></script>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>

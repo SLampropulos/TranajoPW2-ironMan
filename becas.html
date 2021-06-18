@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!--ICONMOON-->
+    <link rel="stylesheet" href="iconmoon/style.css">
+
+
+    <link rel="icon" href="fotos/icono/vengadores.png">
+
+    <title>Becas</title>
+</head>
+
+<body class="fondo">
+
+    <!--      NAVBAR -->
+    <nav id="Nav"></nav>
+    <script src="js/nav.js"></script>
+
+
+    <main>
+
+        <section>
+
+
+
+            <div class="container marketing color-secundario pb-5 mb-5 rounded-bottom">
+
+                <!--            NOMBRE DE LA EMPRESA-->
+
+                <h1 class="display-4 text-center pt-lg-5 pt-md-3 pt-2 titulos">Becas y pasantias</h1>
+                <hr class="featurette-divider mt-5">
+
+                <!-- PRIMER SUB DIVISION-->
+
+
+                <div class="card mb-3 color-cards">
+                    <div class="row no-gutters">
+                        <div class="col-lg-6 align-self-center">
+                            <div class="card-body">
+                                <h2 class="card-title mb-3 titulos">Becas del IMT</h2>
+                                <p class="card-text mt-2">Desde el 2016 que apoyamos a la universidad del IMT dando becas a la mayoría de los estudiantes. Ofresemos a los jóvenes a hacer la pasantía Stark para que amplíen sus conocimientos.</p>
+                                <a class="btn btn-primary boton-letra color-secundario" href="https://www.imt.edu/" role="button" target="_blank">
+                                    Pagina del IMT
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="fotos/beca/IMTbeca.PNG" class="card-img img-fluid" alt="beca">
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--FORMULARIO-->
+                <div class="color-cards p-3">
+                    <form action="show_data.html">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputNombre">Nombre/s</label>
+                                <input type="text" name="Nombre" class="form-control" id="inputnombre" placeholder="Stan" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputApellido">Apellido/s</label>
+                                <input type="text" name="Apellido" class="form-control" id="inputApellido" placeholder="Lee" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputMail">Mail</label>
+                            <input type="email" name="Mail" class="form-control" id="inputMail" placeholder="nombre@gmail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress2">Direccion</label>
+                            <input type="text" name="Direccion" class="form-control" id="inputAddress" placeholder=" calles 123" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputProvincia">Provincia</label>
+                                <input type="text" name="Provincia" class="form-control" id="inputProvincia" required>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputCiudad">Ciudad</label>
+                                <input type="text" name="Ciudad" class="form-control" id="inputCiudad" required>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputCodPostal">Codigo postal</label>
+                                <input type="text" name="Codigo postal" class="form-control" id="inputCodPostal" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputState">Motivo</label>
+                            <select id="inputState" name="motivo" class="form-control" required>
+                                <option selected>Beca IMT</option>
+                                <option>Pasantia Stark</option>
+                                <option>Ambas</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Contanos de vos (Opcional)</label>
+                            <textarea class="form-control" name="texto" id="exampleFormControlTextarea1" rows="4"></textarea>
+                            <div class="form-group">
+                                <label for="exampleFormControlFile1">Adjunte su informacion, obligatorio su historial academicos</label>
+                                <input type="file" class="form-control-file" name="archivos" id="exampleFormControlFile1">
+                            </div>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary btn-lg btn-block mt-3 color-principal">Enviar</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+    <!-- MOBAL ERROR-->
+
+
+    <div class="modal fade" id="errorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="errorModalLabel">ERROR</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Esta funcion esta deshabilitada.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="mailEnviadoMobal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="errorModalLabel">Mail enviado!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Tu mail a quedado registrado y te mantendremos informado!
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="Footer"></footer>
+    <script src="js/footer.js"></script>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body></html>
