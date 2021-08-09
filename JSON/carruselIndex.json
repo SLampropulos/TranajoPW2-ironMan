@@ -1,0 +1,20 @@
+[
+    {
+        "direccionImagen":"fotos/carrusel/ExpoStark.png",
+        "imagenAlt":"ExpoStark",
+        "titulo":"Expo Stark",
+        "parrafo":"Gran convencion de cientificos de todo el mundo.<br>  Programa de para de 22/1/2021 a 29/1/2021."
+    },
+    {
+        "direccionImagen":"fotos/carrusel/becasMIT.png",
+        "imagenAlt":"becaMIT",
+        "titulo":"Becas para los estudiantes del MIT",
+        "parrafo":"En modo de apoyo a los jovenes cientificos estuvo becando a grandes cantidades de jovenes. Contactanos para tener tu beca."
+    },
+    {
+        "direccionImagen":"fotos/carrusel/torreStark.png",
+        "imagenAlt":"torreStark",
+        "titulo":"Torre Stark",
+        "parrafo":"Icono de la empreza y una de las grandes instalaciones."
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "nombre": "Inicio",
+        "ventana_id": "Nav_inicio",
+        "direccion": "index.html",
+        "icono":"icon-home",
+        "titulo":"Stark Industries"
+    },
+    {
+        "nombre": "Nosotros",
+        "ventana_id": "Nav_nosotros",
+        "direccion": "nosotros.html",
+        "icono":"icon-sobre-nosotros",
+        "titulo":"Nosotros"
+    },
+    {
+        "nombre": "Investigacion",
+        "ventana_id": "Nav_investigacion",
+        "direccion": "investigaciones.html",
+        "icono":"icon-lab",
+        "titulo":"Investigacion"
+    },
+    {
+        "nombre": "Iron Man",
+        "ventana_id": "Nav_ironMan",
+        "direccion": "ironMan.html",
+        "icono":"icon-vengadores",
+        "titulo":"Iron Man"
+    },
+    {
+        "nombre": "Becas",
+        "ventana_id": "Nav_becas",
+        "direccion": "becas.html",
+        "icono":"icon-beca",
+        "titulo":"Becas"
+    },
+    {
+        "nombre": "Contactanos",
+        "ventana_id": "Nav_contactanos",
+        "direccion": "contactanos.html",
+        "icono":"icon-email",
+        "titulo":"Contactanos"
+    }
+]
