@@ -1,0 +1,26 @@
+{
+    "apuntado":0,   
+    "listado":  [
+                    {
+                        "titulo":"Prótesis o soporte para caminar",
+                        "descripcion":"Estuvimos evaluando la forma de ayudar a personas que sufrieron accidentes para que vuelvan a tener la posibilidad de caminar aun seguimos trabajando en esto pero esperamos con ansia un producto finalizado.",
+                        "enlace":"exoEsqueleto.html",
+                        "foto":"soporte.PNG",
+                        "medidas":[10,2]
+                    },
+                    {
+                        "titulo":"BREA",
+                        "descripcion":"BREA o Binario Retro Enfoque Amplificado, es un método de terapia en extremo costoso para entrar al hipocampo y alterar recuerdo. Una forma de engañar a la mente para que visualice cosas. Pensado para un método de terapia.",
+                        "enlace":"BREA.html",
+                        "foto":"lentes.jpg",
+                        "medidas":[7,5]
+                    },
+                    {
+                        "titulo":"Reactor ARK",
+                        "descripcion":"Ultimamente estuvimos pensando mucho en la energía verde y reutilizable por eso la torre Stark es uno de nuestro gran orgullo. La torre Stark puede auto alimentarse durante 10 años y esperamos seguir avanzando y evolucionando en estas investigaciones.",
+                        "enlace":"ARK.html",
+                        "foto":"ARK.PNG",
+                        "medidas":[7,5]
+                    }
+                ]
+}

@@ -1,0 +1,21 @@
+[
+    {
+        "titulo":"En memoria a Tony Stark",
+        "descripcion":"Despues de la batalla de los vengadoers contra el titan Thanos. Queremos dejar en memoria como empresa que Tony nos va a seguir acompañando en donde este y vamos a seguir sus morales e ideales.",
+        "imagenSRC":"MemoriaTony.jpg",
+        "imagenALT":"tony"
+    },
+    {
+        "titulo":"Exposicion Stark",
+        "descripcion":"La exposición Stark siempre fue muy simbólica para nosotros además de ser un lugar donde apoyamos y buscamos nuevos compañeros para la empresa. Para buscar un lugar por favor póngase en contacto con nosotros.",
+        "imagenSRC":"expo.jpg",
+        "imagenALT":"tony"
+    },
+    {
+        "titulo":"",
+        "descripcion":"",
+        "mapaURL":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38953.22791887109!2d-74.01776301869155!3d40.731269307231905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25990e23d7e8d%3A0xfa615edfd1b67e18!2sWashington%20Square%20Park!5e0!3m2!1ses!2sar!4v1606493620954!5m2!1ses!2sar"
+        
+    }
+
+]
